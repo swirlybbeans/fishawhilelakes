@@ -1,0 +1,219 @@
+/*
+=================================================
+NAVIGATION
+=================================================
+*/
+
+.navbar {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  background-color: rgb(32, 65, 116);
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  z-index:100;
+}
+
+
+/*
+=================================================
+VIDEO BACKGROUND
+=================================================
+*/
+
+.hero-section {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  text-align: center;
+ 
+}
+.hero-section h1{
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+.lead {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+
+}
+
+.p-5 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300px;
+  font-size: 60px;
+}
+
+
+
+
+
+/*
+=================================================
+VIDEO BACKGROUND
+=================================================
+*/
+.video-hero{ /* Add this class to parent element */
+    position:relative;
+    background-image: none;
+    background-color:transparent;
+  }
+  
+  #background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+
+
+
+/*
+=================================================
+ABOUT US
+=================================================
+*/
+
+
+
+
+
+
+#about {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color:  rgb(31, 57, 97);
+  word-spacing: 2px;
+}
+
+
+#about h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+/*
+=================================================
+WHAT YOU MIGHT CATCH
+=================================================
+*/
+
+#tabs {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  color:  rgb(31, 57, 97);
+}
+
+#tabs {
+  background-color: #f0f0f0;
+
+} 
+
+
+/*
+=================================================
+GALLERY
+=================================================
+*/
+
+.row {
+  margin: 15px;
+}
+
+
+/*
+=================================================
+CONATCT US
+=================================================
+*/
+
+.quick-links i {
+  font-size: 3em;
+}
+.to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+}
+
+
+@media (max-width: 800px) {
+  .hero-section h1{
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+}
+@media (max-width: 460px) {
+
+  .hero-section h1{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .lead {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .hero-section h1{
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .lead {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+  }
+}
+
+/*
+=================================================
+SECTIONS
+=================================================
+*/
+.bg-aquamarine {
+  background-color: aquamarine;
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 700px;
+  height: 392px;
+}
+.map iframe {
+  width: 100%;
+  height: 600px;
+}
+.presentation iframe {
+  width: 100%;
+  max-width: 856px;
+  height: 518px;
+}
+ 
+.row {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.bi {
+  height: 40px;
+}
+
+/*
